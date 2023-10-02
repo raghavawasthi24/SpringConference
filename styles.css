@@ -2,3 +2,57 @@
     margin: 0;
     padding: 0;
 }
+.horizontaline{
+    border: 2px solid #ffa854;
+    width: 25%;
+    margin: auto auto 1rem auto;
+}
+.MainHead{
+    color: #574a66;
+    text-align: center;
+    margin: 1.2rem auto;   
+    font-size: 2rem; 
+}
+.subHead{
+    color: #574a66;
+
+}
+
+.content{
+    margin: 1rem auto;    
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.wrap{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+
+@media (max-width: 768px) {
+    .horizontaline {
+        width: 50%; /* Change the width to 50% on screens smaller than 768px */
+    }
+    .MainHead{
+        font-size: 1.5rem;
+    }
+    .content{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .horizontaline {
+        width: 75%; /* Change the width to 75% on screens smaller than 480px */
+    }
+    .MainHead{
+        font-size: 1.2rem;
+    }
+}
