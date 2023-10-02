@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="register.css" />
+</head>
+<body>
+   <div>
+    <div class="heading" style="background-size: cover">
+        <h2 class="mainhead">Register</h2>
+        <div class="horizontaline"></div>
+    </div>
+    <div class="container">
+        <div class="flex-container">
+            <div class="form_container">
+                <form name="contactForm" id="contact_form" class="form_container">
+                    <div class="field-set">
+                        <input type="text" name="name" id="name" class="form_field" placeholder="Your Name" required autoComplete='off'>
+                    </div>
+
+                    <div class="field-set">
+                        <input type="text" name="email" id="email" class="form_field" placeholder="Your Email" required autoComplete='off'>
+                    </div>
+
+                    <div class="field-set">
+                        <input type="text" name="phone" id="phone" class="form_field" placeholder="Phone" required autoComplete='off'>
+                    </div>
+
+                    <div class="field_field">
+                        <select id="select" name="select" size="1" class="form_field" required autoComplete='off'>
+                            <option value="" disabled="" selected="">Select Type</option>
+                            <option>Early Bird</option>
+                            <option>Regular</option>
+                            <option>Exclusive</option>
+                        </select>
+                    </div>
+                    <div class="field_field">
+                        <textarea name="message" id="message" class="form_field" placeholder="Additional Message"></textarea>
+                    </div>
+                    <div >
+                        <input type="submit" id="submit" value="Submit Form" class="btn">
+                    </div>
+                </form>
+            </div>
+            <div class="form_img">
+                <img src="./images/college2.jpg" alt="">
+            </div>
+        </div>
+   </div> 
+   </div>
+</body>
+</html>
