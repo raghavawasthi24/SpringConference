@@ -1,0 +1,66 @@
+body{
+    background: rgba(243, 77, 105, 0.813)
+    /* background-color: rgb(156, 156, 214); */
+}
+.navbar{
+    z-index: 99;
+    width: 100%;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+}
+a{
+    color: white;
+}
+.carousel-inner{
+    opacity: 0.5;
+}
+
+#carouselExampleAutoplaying{
+    height: 100vh;
+    overflow: hidden;
+}
+#carouselExampleAutoplaying img{
+    height: 80vh;
+}
+
+
+.homeContent{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* left: 50%; */
+}
+
+.homeContent p{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.timer {
+    text-align: center;
+    font-size: 36px;
+    /* margin-top: 20px; */
+    display: flex;
+}
+.timerBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:1rem;
+    color: white;
+}
+.timer-label {
+    font-size: 24px;
+}
+
+/* .timer div {
+    display: inline-block;
+    margin: 0 10px;
+} */
+
