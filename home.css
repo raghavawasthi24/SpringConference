@@ -1,5 +1,6 @@
 body{
-    background: rgba(243, 77, 105, 0.813)
+    background: rgba(243, 77, 105, 0.813);
+    background : rgba(50, 24, 50, 0.76)
     /* background-color: rgb(156, 156, 214); */
 }
 .navbar{
@@ -28,7 +29,7 @@ a{
 .homeContent{
     width: 100%;
     position: absolute;
-    top: 30%;
+    top: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,14 +38,14 @@ a{
 }
 
 .homeContent p{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
     color: white;
 }
 .timer {
     text-align: center;
-    font-size: 36px;
-    /* margin-top: 20px; */
+    font-size: 50px;
+    margin-top: 20px;
     display: flex;
 }
 .timerBlock{
@@ -52,7 +53,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left:1rem;
+    margin-left:2rem;
     color: white;
 }
 .timer-label {
@@ -64,3 +65,36 @@ a{
     margin: 0 10px;
 } */
 
+
+.about{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#aboutHeading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:orange;
+    border-bottom: 2px solid orange;
+}
+
+
+.aboutObj{
+    font-weight: bold;
+    width: 100%;
+    text-align: start;
+}
+
+.aboutCards{
+   display: flex ;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.card{
+    margin: 1rem;
+}
