@@ -1,4 +1,6 @@
-
+#acceptedPaper{
+    background-color: white;
+}
 .acceptedPaperGrid {
     display: grid;
     grid-template-columns: auto auto auto auto;
