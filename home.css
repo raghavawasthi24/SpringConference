@@ -1,5 +1,5 @@
 body{
-    background: rgba(243, 77, 105, 0.813);
+    /* background: rgba(243, 77, 105, 0.813); */
     background : rgba(50, 24, 50, 0.861)
     /* background-color: rgb(156, 156, 214); */
 }
@@ -38,7 +38,8 @@ a{
 }
 
 .homeContent p{
-    font-size: 4rem;
+    text-align: center;
+    font-size: 2rem;
     font-weight: bold;
     color: white;
 }
@@ -97,4 +98,23 @@ a{
 }
 .card{
     margin: 1rem;
+}
+
+
+
+.dates{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 1rem;
+}
+
+#datesHeading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:orange;
+    text-align: center;
+    /* border-bottom: 2px solid orange; */
 }
