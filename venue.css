@@ -1,0 +1,58 @@
+#venue{
+    height: 100vh;
+}
+.common-heading{
+    color: #574a66;
+    font-weight: bold;
+}
+.common-heading-line{
+    color: #ffa854;
+    opacity: 1;
+    margin: 1rem auto;
+}
+.common-text{
+    font-size: 1.5vw;
+    line-height: 2em;
+    text-align: center;
+    /* margin-top: 0; */
+    font-weight: 500;
+    color: #535254;
+}
+.venueContent{
+    display: flex;
+}
+.venueBtn{
+    margin: 1rem auto;
+}
+.carouselSection{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carouselContainer{
+    margin:auto;
+    width: 80%;
+}
+
+
+@media (max-width:995px) {
+    #venue{
+        text-align: center;
+        justify-content: center;
+    }
+    .venueContent{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:375px) {
+    #venue{
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .venueContent{
+        flex-direction: column;
+    }
+}
