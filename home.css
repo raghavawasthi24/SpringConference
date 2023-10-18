@@ -1,6 +1,6 @@
 body{
     /* background: rgba(243, 77, 105, 0.813); */
-    background : rgba(50, 24, 50, 0.861)
+    background : rgba(24, 21, 24, 0.897)
     /* background-color: rgb(156, 156, 214); */
 }
 .navbar{
@@ -14,7 +14,7 @@ a{
     color: white;
 }
 .carousel-inner{
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 #carouselExampleAutoplaying{
@@ -29,7 +29,7 @@ a{
 .homeContent{
     width: 100%;
     position: absolute;
-    top: 35%;
+    top: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +39,7 @@ a{
 
 .homeContent p{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     color: white;
 }
@@ -100,6 +100,22 @@ a{
     margin: 1rem;
 }
 
+.details{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#detailsHeading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:orange;
+    border-bottom: 2px solid orange;
+}
+
 
 
 .dates{
@@ -107,7 +123,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     padding: 1rem;
 }
 
@@ -116,5 +132,5 @@ a{
     font-weight: bold;
     color:orange;
     text-align: center;
-    /* border-bottom: 2px solid orange; */
+    border-bottom: 2px solid orange;
 }
