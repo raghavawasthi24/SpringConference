@@ -18,15 +18,21 @@
      /* z-index: 1; */
      background: linear-gradient(45deg, rgba(60,34,123,0.5) 0%,rgba(234,5,98,0.5) 100%);
  }
- .row{
+ .roww{
      margin-top: 2rem;
+     display: flex;
      justify-content: center;
      align-items: center;
-     display: flex;
+    
      flex-wrap: wrap;
  }
  .profile_pic{
      margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* width: 2rem; */
+    /* height: 2rem ; */
+    /* overflow: hidden; */
  }
  .name{
      text-align: center;
@@ -50,5 +56,5 @@
  .outerBox{
      border-radius: 10px;
      overflow: hidden;
- 
+     width: full;
  } 
