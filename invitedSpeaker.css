@@ -35,6 +35,7 @@
     /* overflow: hidden; */
  }
  .name{
+     margin: 0.75rem;
      text-align: center;
     color: #574a66;
  
@@ -44,6 +45,7 @@
      text-align: center;
  }
  .img-responsive{
+
      height: 17rem;
      width: 16rem;
      border-radius: 10px;
@@ -56,5 +58,5 @@
  .outerBox{
      border-radius: 10px;
      overflow: hidden;
-     width: full;
+
  } 
