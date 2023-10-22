@@ -13,10 +13,96 @@
     <link href="venue.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 </head>
 
 <body> 
+  <nav class="navbar navbar-expand-lg bg-transparent">
+    <div class="container-fluid d-flex justify-between">
+      <a class="navbar-brand text-white" href="#"
+        ><img
+          src="./images/Logo.png"
+          alt=""
+          style="width: 4rem; height: auto"
+      /></a>
+      <div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white fst-italic"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fst-italic" href="committe.html"
+                >Committees</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fst-italic"
+                href="invitedSpeaker.html"
+                >Invited Speakers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fst-italic" href="callForPaper.html"
+                >Call for Papers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fst-italic"
+                href="acceptedPaper.html"
+                >Accepted Papers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fst-italic" href="program.html"
+                >Program</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fst-italic" href="register.html"
+                >Registration</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fst-italic"
+                href="venue.html"
+                >Venue</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fst-italic"
+                >Pre-Conference School</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
   <main id="venue">
     <div class="container">
       <h1 class="display-5 text-center fw-bold common-heading">Venue</h1>
@@ -146,6 +232,12 @@
     }
 })
 </script>
+<script src="script.js"></script>
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
 </body>
 
 </html>
