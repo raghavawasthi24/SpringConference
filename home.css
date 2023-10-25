@@ -1,6 +1,6 @@
 body{
     /* background: rgba(243, 77, 105, 0.813); */
-    background : rgba(24, 21, 24)
+    background : black;
     /* background-color: rgb(156, 156, 214); */
 }
 .navbar{
@@ -10,11 +10,15 @@ body{
     position: absolute;
     top: 0;
 }
+#home{
+    background-color: black;
+}
 a{
     color: white;
 }
 .carousel-inner{
-    opacity: 0.9;
+    /* background-color: black; */
+    opacity: 0.3;
 }
 
 #carouselExampleAutoplaying{
