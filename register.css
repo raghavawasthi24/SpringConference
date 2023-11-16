@@ -114,12 +114,14 @@ html {
 .reg-account {
   margin-left: 5rem;
   margin-top: 2rem;
-
+  
   width: 50%;
 }
 .reg-note {
   margin-left: 5rem;
 }
+
+
 /* 
 @media (max-width: 860px) {
   .flex-container {
