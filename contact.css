@@ -1,0 +1,43 @@
+.header{
+    margin:1rem auto;
+    font-size: 2rem;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.contactImg{
+    height: 300px;
+    width: 500px;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
