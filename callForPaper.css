@@ -26,21 +26,21 @@
 }
 
 .scrolling-text {
-    width: 100%; /* Set container width */
-    overflow: hidden; /* Hide overflowing content */
+    width: 100%; 
+    overflow: hidden; 
   }
   
   .scrolling-text p {
-    white-space: nowrap; /* Prevent text from wrapping */
-    animation: marquee 20s linear infinite; /* Use CSS animation */
+    white-space: nowrap; 
+    animation: marquee 20s linear infinite; 
   }
   
   @keyframes marquee {
     0% {
-      transform: translateX(100%); /* Start off-screen from the right */
+      transform: translateX(100%); 
     }
     100% {
-      transform: translateX(-100%); /* Move to off-screen left */
+      transform: translateX(-100%); 
     }
   }
   
