@@ -87,6 +87,9 @@ a{
     border-bottom: 2px solid orange;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    margin-top: 4rem;
+}
 
 .aboutObj{
     font-weight: bold;
