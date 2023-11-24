@@ -1,43 +1,44 @@
-body{
-    background-color: #f4f0f0;
+body {
+  background-color: #f4f0f0;
 }
 
 .mainhead {
-    font-size: 1.8rem;
-    color: #574a66;
-    text-align: center;
-    font-weight: bold;
+  font-size: 1.8rem;
+  color: #574a66;
+  text-align: center;
+  font-weight: bold;
 }
 
 .horizontaline {
-    border: 2px solid #ffa854;
-    width: 25%;
-    margin: auto;
+  border: 2px solid #ffa854;
+  width: 25%;
+  margin: auto;
 }
 
 body,
 html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80%;
-    margin: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  margin: 5rem;
 }
 
+/* 
 .form_container {
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
     background-color: white;
     box-shadow: #574a66;
-}
-
+} */
+/* 
 .form_field {
     width: 28rem;
     padding: 10px;
@@ -106,3 +107,42 @@ html {
     display: flex;
     width: 100%;
 }
+ */
+.reg-table {
+  margin-top: 2px;
+  margin-left: 5rem;
+}
+.reg-account {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  
+  width: 50%;
+}
+.reg-note {
+  margin-left: 5rem;
+}
+
+/* 
+@media (max-width: 860px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form_container,
+  .form_img {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .form_field {
+    width: 100%;
+  }
+
+  #select,
+  #message {
+    width: 100%;
+  }
+}
+
+
+ */
