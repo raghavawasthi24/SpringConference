@@ -11,14 +11,14 @@ body{
     top: 0;
 }
 #home{
-    background-color: black;
+    /* background-color: black; */
 }
 a{
     color: white;
 }
 .carousel-inner{
     /* background-color: black; */
-    opacity: 0.3;
+    /* opacity: 0.3; */
 }
 
 #carouselExampleAutoplaying{

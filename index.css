@@ -6,3 +6,47 @@
     background-color: white;
     
 }
+
+.horizontaline{
+    border: 2px solid #ffa854;
+    width: 37%;
+    margin: auto;
+}
+.horizontaline2{
+    border: 1px solid #ffa854;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.MainHead{
+    color: #574a66;
+    text-align: center;
+}
+.subHead{
+    margin: 1rem auto;
+    color: #574a66;
+
+}
+
+.scrolling-text {
+    width: 100%; 
+    overflow: hidden; 
+  }
+  
+  .scrolling-text p {
+    white-space: nowrap; 
+    font-weight: 800;
+    animation: marquee 15s linear infinite; 
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-100%); 
+    }
+  }
+  
