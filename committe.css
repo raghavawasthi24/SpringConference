@@ -23,9 +23,31 @@
      display: flex;
      justify-content: center;
      align-items: center;
-    
+     
      flex-wrap: wrap;
  }
+ .col-1{
+    width: 40%;
+    min-width: 100px;
+ }
+ .col-2{
+    width: 50%;
+ }
+ .col-21{
+    width: 30%;
+    min-width: 80px;    
+ }
+ .col-22{
+    width: 40%;
+    word-wrap: break-word;
+ }
+ .col-23{
+    width: 20%;
+ }
+ .committe-table{
+    margin: 2rem 2rem;
+ }
+
  .profile_pic{
      margin: 1rem;
     display: flex;
@@ -58,3 +80,16 @@
      overflow: hidden;
      width: full;
  } 
+
+ @media screen and (max-width: 768px) {
+
+    .committe-table{
+        margin: 2rem 1rem;
+     }
+ }
+ @media screen and (max-width: 500px) {
+    .committe-table{
+        margin: 0rem 0.5rem 0.5rem 0.5rem;
+
+     }
+ }
