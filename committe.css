@@ -1,7 +1,10 @@
 .mainhead{
-    font-size: 1.2rem;
-    color: #574a66;
-    text-align: center;;
+    width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
  }
  .horizontaline{
      border: 2px solid #ffa854;
