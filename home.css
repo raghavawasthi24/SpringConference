@@ -1,68 +1,67 @@
-body{
-    /* background: rgba(243, 77, 105, 0.813); */
-    background : black;
-    /* background-color: rgb(156, 156, 214); */
+body {
+  /* background: rgba(243, 77, 105, 0.813); */
+  background: black;
+  /* background-color: rgb(156, 156, 214); */
 }
-.navbar{
-    z-index: 99;
-    width: 100%;
-    overflow-x: hidden;
-    position: absolute;
-    top: 0;
+.navbar {
+  z-index: 99;
+  width: 100%;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
 }
-#home{
-    /* background-color: black; */
+#home {
+  /* background-color: black; */
 }
-a{
-    color: white;
+a {
+  color: white;
 }
-.carousel-inner{
-    /* background-color: black; */
-    /* opacity: 0.3; */
-}
-
-#carouselExampleAutoplaying{
-    height: 90vh;
-    overflow: hidden;
-}
-#carouselExampleAutoplaying img{
-    height: 80vh;
+.carousel-inner {
+  /* background-color: black; */
+  /* opacity: 0.3; */
 }
 
-
-.homeContent{
-    width: 100%;
-    position: absolute;
-    top: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* left: 50%; */
+#carouselExampleAutoplaying {
+  height: 90vh;
+  overflow: hidden;
+}
+#carouselExampleAutoplaying img {
+  height: 80vh;
 }
 
-.homeContent p{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-    color: white;
+.homeContent {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* left: 50%; */
+}
+
+.homeContent p {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
 }
 .timer {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 20px;
-    display: flex;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  display: flex;
 }
-.timerBlock{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left:2rem;
-    color: white;
+.timerBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+  color: white;
 }
 .timer-label {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 /* .timer div {
@@ -70,74 +69,74 @@ a{
     margin: 0 10px;
 } */
 
-
-.about{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+.about {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
-#aboutHeading{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color:orange;
-    border-bottom: 2px solid orange;
+#aboutHeading {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    margin-top: 4rem;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  margin-top: 4rem;
 }
 
-.aboutObj{
-    font-weight: bold;
-    width: 100%;
-    text-align: start;
+.aboutObj {
+  font-weight: bold;
+  width: 100%;
+  text-align: start;
 }
 
-.aboutCards{
-   display: flex ;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
+.aboutCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.card{
-    margin: 1rem;
-}
-
-.details{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+.card {
+  margin: 1rem;
 }
 
-#detailsHeading{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color:orange;
-    border-bottom: 2px solid orange;
+.details {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
-
-
-.dates{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+#detailsHeading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: orange;
+  border-bottom: 2px solid orange;
 }
 
-#datesHeading{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color:orange;
-    text-align: center;
-    border-bottom: 2px solid orange;
+.dates {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#datesHeading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: orange;
+  text-align: center;
+  border-bottom: 2px solid orange;
 }
