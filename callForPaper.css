@@ -1,51 +1,59 @@
-#callForPaper{
-    background-color: white;
-    padding: 1rem;
+#callForPaper {
+  background-color: white;
+  padding: 1rem;
 }
-.horizontaline{
-    border: 2px solid #ffa854;
-    width: 37%;
-    margin: auto;
+.horizontaline {
+  border: 2px solid #ffa854;
+  width: 37%;
+  margin: auto;
 }
-.horizontaline2{
-    border: 1px solid #ffa854;
-    width: 100%;
-    margin: auto;
+.horizontaline2 {
+  border: 1px solid #ffa854;
+  width: 100%;
+  margin: auto;
 }
 
-
-
-.MainHead{
-    width: 100%;
+.MainHead {
+  width: 100%;
   background-color: blue;
   color: white;
   padding: 10px;
   font-weight: bold;
   font-size: 1.2rem;
 }
-.subHead{
-    margin: 1rem auto;
-    color: #574a66;
-
+.subHead {
+  margin: 1rem auto;
+  color: #574a66;
 }
 
 .scrolling-text {
-    width: 100%; 
-    overflow: hidden; 
+  width: 100%;
+  overflow: hidden;
+}
+
+.scrolling-text p {
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
   }
-  
-  .scrolling-text p {
-    white-space: nowrap; 
-    animation: marquee 20s linear infinite; 
+  100% {
+    transform: translateX(-100%);
   }
-  
-  @keyframes marquee {
-    0% {
-      transform: translateX(100%); 
-    }
-    100% {
-      transform: translateX(-100%); 
-    }
-  }
-  
-  
+}
+
+.callDiv {
+  /* box-shadow: 1px 1px 0.5px gray; */
+  border: 2px solid gray;
+  /* padding: 1rem; */
+}
+
+.callP {
+  background-color: #e7e5e592;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
